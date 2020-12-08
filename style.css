@@ -4,7 +4,7 @@
     font-family: 'Roboto',sans-seriff;
 }
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("media/abstract-minimal-blur-4k_1551646032.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("Media/abstract-minimal-blur-4k_1551646032.jpg");
 }
 .container{
     width: 100%;
@@ -99,16 +99,16 @@ button{
 }
 
 .card1{
-    background-image: url("media/pic-1.png");
+    background-image: url("Media/pic-1.png");
 }
 .card2{
-    background-image: url("media/pic-1.png");
+    background-image: url("Media/pic-1.png");
 }
 .card3{
-    background-image: url("media/pic-1.png");
+    background-image: url("Media/pic-1.png");
 }
 .card4{
-    background-image: url("media/pic-1.png");
+    background-image: url("Media/pic-1.png");
 }
 
 .card:hover{
