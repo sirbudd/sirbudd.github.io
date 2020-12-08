@@ -156,3 +156,8 @@ h5{
 .container a:hover{
     color:gray;
 }
+
+.col a{
+    text-decoration:none;
+    color:white;
+}
