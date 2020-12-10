@@ -87,16 +87,16 @@ p{
 }
 
 .card1{
-    background-image: url("Media/card5.png");
+    background-image: url("Media/card4.jpg");
     box-shadow: 5px 5px 20px black;
 }
 .card2{
-    background-image: url("Media/card5.png");
-    box-shadow: 5px 5px 20px black;
+    background-image: url("Media/card4.jpg");
+    box-shadow: 5px 5px 10px black;
 }
 .card3{
-    background-image: url("Media/card5.png");
-    box-shadow: 5px 5px 20px black;
+    background-image: url("Media/card4.jpg");
+    box-shadow: 5px 5px 10px black;
 }
 .card4{
     background-image: url("Media/pic-1.png");
