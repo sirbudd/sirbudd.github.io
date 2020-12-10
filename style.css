@@ -157,7 +157,6 @@ h5{
 .col p{
     padding: 10px 10px 30px 10px;
     font-size: 20px;
-    text-align: center;
 }
 
 .container a:hover{
@@ -171,4 +170,8 @@ h5{
 
 .col a:hover{
     color: rgb(80, 79, 79);;
+}
+
+.card p{
+    text-align: center;
 }
