@@ -4,7 +4,7 @@
     font-family: 'Roboto',sans-seriff;
 }
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("Media/abstract-minimal-blur-4k_1551646032.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("Media/abstract-minimal-blur-4k_1551646032.jpg");
 }
 .container{
     width: 100%;
@@ -55,7 +55,6 @@ nav ul li a{
     display: flex;
     height: 88%;
     align-items: center;
-    
 }
 
 .col{
@@ -73,52 +72,26 @@ p{
 }
 
 .card{
-    width: 200px;
-    height: 230px;
+    width: 800px;
+    height: 440px;
     border-radius: 10px;
     padding: 25px 25px;
     box-sizing: border-box;
-    cursor: pointer;
     margin: 10px 15px;
     background-position: center;
     background-size: cover;
-    transition: transform 0.5s;
     float:right;
 }
 
 .card1{
-    background-image: url("Media/card4.jpg");
+    background-image: url("Media/card6.jpg");
     box-shadow: 5px 5px 20px black;
-}
-.card2{
-    background-image: url("Media/card4.jpg");
-    box-shadow: 5px 5px 10px black;
-}
-.card3{
-    background-image: url("Media/card4.jpg");
-    box-shadow: 5px 5px 10px black;
-}
-.card4{
-    background-image: url("Media/pic-1.png");
-}
-
-.card:hover{
-    transform: translateY(-10px);
 }
 
 h5{
-    color:white;
-    text-shadow: 0 0 5px #999;
-    font-size: 35px;
+    color:#F5F5F5;
+    font-size: 26px;
     text-align: center;
-    padding-top: 40px;
-    
-}
-
-.card p{
-    text-shadow: 0 0 15px #000;
-    font-size: 14px;
-    padding:10px 0 0 0;
 }
 
 .copyright {
@@ -142,11 +115,6 @@ h5{
     text-decoration: none;
 }
 
-.col p{
-    padding: 10px 10px 30px 10px;
-    font-size: 20px;
-}
-
 .container a:hover{
     color:gray;
 }
@@ -162,4 +130,9 @@ h5{
 
 .card p{
     text-align: center;
+}
+
+.col p{
+    padding: 10px 10px 30px 10px;
+    font-size: 20px;
 }

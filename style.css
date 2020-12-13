@@ -4,7 +4,7 @@
     font-family: 'Roboto',sans-seriff;
 }
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("Media/abstract-minimal-blur-4k_1551646032.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("Media/abstract-minimal-blur-4k_1551646032.jpg");
 }
 .container{
     width: 100%;
@@ -87,19 +87,16 @@ p{
 }
 
 .card1{
-    background-image: url("Media/card5.png");
+    background-image: url("Media/card6.jpg");
     box-shadow: 5px 5px 20px black;
 }
 .card2{
-    background-image: url("Media/card5.png");
+    background-image: url("Media/card6.jpg");
     box-shadow: 5px 5px 20px black;
 }
 .card3{
-    background-image: url("Media/card5.png");
+    background-image: url("Media/card6.jpg");
     box-shadow: 5px 5px 20px black;
-}
-.card4{
-    background-image: url("Media/pic-1.png");
 }
 
 .card:hover{
