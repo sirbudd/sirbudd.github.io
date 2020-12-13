@@ -47,7 +47,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-size: 25px;
 }
 
@@ -116,7 +116,7 @@ h5{
 }
 
 .container a:hover{
-    color:gray;
+    color:#C0C0C0;
 }
 
 .col a{
@@ -125,7 +125,8 @@ h5{
 }
 
 .col a:hover{
-    color: rgb(80, 79, 79);;
+    color: 	#C0C0C0;
+    text-shadow: 0 0 5px #C0C0C0;
 }
 
 .card p{
