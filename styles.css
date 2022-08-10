@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.element::-webkit-scrollbar { width: 0 !important }
+
+body {
+    background: #D0FEF5;
+    background-image: url('../images/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:#E5625E;
+    letter-spacing: 2px;
+}
+
+footer{
+    color:black;
+    letter-spacing: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5625E;
+}
+
+a:hover {
+    color: #437C90;
+}
+
+.active {
+    color:black;
+}
+
+li:first-child {
+    float: left; 
+}
+
+li {
+    display: inline-block;
+    padding-right: 3%;
+    margin: 0px 0px 0px 0px;
+    font-size: 35px;
+    
+}
+
+li1 {
+    display: inline-block;
+    padding-right: 3%;
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+}
+
+.topnav {
+    list-style: none;
+    font-family: 'Roboto Thin';
+    color: #E5625E;
+    margin: 50px 0 0 0;
+    text-align: right;
+    background:white;
+    padding:30px;
+    margin:30px;
+}
+
+section header {
+    margin-top: 0px;
+    font-family: 'Roboto Thin';
+    font-size: 62px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.home {
+    margin-top: 150px;
+}
+
+section {
+    text-align: center;
+    padding: 8%;
+}
+
+section nav {
+    font-family: 'Roboto Thin';
+    font-size: 36px;
+    line-height: 55px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .mybutton {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #151D21;
+    background: #E5625E;
+    display: inline-flex;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 2px solid #540804;
+    border-radius: 5px;
+    letter-spacing: 0px;
+}
+
+section .mybutton:hover {
+    background:#437C90;
+    font-size: 26px;
+    margin-top: 29px;
+}
+
+footer {
+    font-family: 'Roboto Thin';
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
+
+@media screen and (max-width: 1140px) {
+    section nav {
+        font-family: 'Roboto Thin';
+        font-size: 24px;
+        line-height: 36px;
+        text-align: left;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        font-size: 24px;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: -40px;
+    }
+
+    .features figure img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }    
+
+    figure figcaption {
+        font-family: 'Roboto Black';
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .features {
+        display: block;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    section header {
+        font-size: 42px;
+    }
+
+    .games {
+        margin-top: 50px;
+    }
+
+    .features figure:first-child {
+        padding-top: 100px;
+    }
+
+    section nav {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    li {
+        font-size: 12px;
+    }
+
+    section nav {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    section .mybutton {
+        font-size: 12px;
+    }
+
+    section .mybutton:hover {
+        background: white;
+        font-size: 14px;
+        margin-top: 29px;
+    }
+}
+
+downloads h1{
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 50px;
+    padding:0px;
+}
+
+.titlu{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 0px;
+    font-size: 50px;
+    
+}
+
+.tutorial{
+    margin-top:30px;
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 50px;
+    padding:0px;
+}
+
+.right{
+    display: flex;
+    float:left;
+    width: 35%;
+    height:150px;
+    clear:left;
+}
+
+.right2{
+    display: flex;
+    float:left;
+    width: 35%;
+    height:150px;
+    clear:left;
+}
