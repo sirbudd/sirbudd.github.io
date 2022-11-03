@@ -1,6 +1,6 @@
 :root {
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("Media/background.jpg");
-  --card-color: rgb(23, 23, 23, 0.9);
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url("Media/background.jpg");
+  --card-color: rgb(9, 9, 9);
 }
 
 body {
@@ -114,8 +114,8 @@ body::-webkit-scrollbar { /* WebKit */
 .social_links{
   padding: 15px 15px 15px -12px;
   position:absolute;
-  top:120px;
-  right:80px;
+  top:110px;
+  right:83px;
 }
 
 .social_links img{
@@ -123,7 +123,6 @@ body::-webkit-scrollbar { /* WebKit */
     width: 50px;
     border-radius: 10px;
     margin-right: 20px;
-
 }
 
 .social_links a{
@@ -246,6 +245,7 @@ i {
 
 .blink_me {
   animation: blinker 1s linear infinite;
+  font-weight: bold;
 }
 
 @keyframes blinker {  
